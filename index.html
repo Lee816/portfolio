@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen and (min-width: 768px)" href="css/portfolio_min768.css">
+    <link rel="stylesheet" media="screen and (max-width:767px)" href="css/portfolio_max767.css">
+    <script src="https://kit.fontawesome.com/7d25faa43e.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+    <nav id="nav">
+        <a href="#home" class="active"><i class="fa-solid fa-house"></i>Home</a> | 
+        <a href="#about"><i class="fa-solid fa-user"></i>About</a> | 
+        <a href="#skills"><i class="fa-solid fa-laptop-code"></i>Skills</a> | 
+        <a href="#project"><i class="fa-solid fa-list-check"></i>Project</a>
+    </nav>
+    <div id="home" class="viewport">
+        <p> Developer Portfolio </p>
+        <div id="home_text_box" class="margincenter">
+            <span id="home_text"></span><span id="blink">|</span>
+        </div>
+    </div>
+    <div id="about" class="viewport">
+        <div id="me" class="margincenter">
+            <div id="me_1">
+                <div>
+                    <img id="profileimg" src="img/profile.jpg" alt="">
+                </div>
+                <div>
+                    <h3>기본 인적사항</h3>
+                    <p>이름 : 이근한</p>
+                    <p>생년월일 : 1996.08.16</p>
+                    <p>연락처 : 010.4082.2605</p>
+                    <p>이메일 : lgha0816@naver.com</p>
+                    <p>Git hub : <a href="https://github.com/Lee816"><i class="fa-brands fa-github"></i></a></p>
+                    <p>Study Blog : <a href="https://lgha0816.tistory.com/"><i class="fa-brands fa-blogger"></i></a></p>
+                </div>
+                <br>
+                <br>
+                <div>
+                    <h3>자격증</h3>
+                    <p>운전면허증1종보통 ( 2015.08 취득)</p>
+                    <p>MOS Excel ( 2021.12 취득)</p>
+                    <p>MOS Powerpoint ( 2021.12 취득)</p>
+                </div>
+            </div>
+            <div id="me_2">
+                <div>
+                    <h3>병역</h3>
+                    <p>해병대 <br>( 2016.10 입대 ~ 2018.07 전역 )</p>
+                </div>
+                <br>
+                <br>
+                <div>
+                    <h3>학력</h3>
+                    <p>2012.03 ~ 2015.02 <br> 진산고등학교 졸업</p>
+                    <p>2015.03 ~ 2022.02 <br> 청운대학교 전자공학과 졸업</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="skills" class="viewport">
+        <p>Skills</p>
+        <div class="margincenter skillcategory_box">
+            <p class="skillcategory_name">Frontend</p>
+            <div class="posirel">html <div class="bar100"></div></div>
+            <div class="posirel">css <div class="bar80"></div></div>
+            <div class="posirel">javascript <div class="bar40"></div></div>
+            <div class="posirel">react <div class="bar40"></div></div>
+        </div>
+        <div class="margincenter skillcategory_box">
+            <p class="skillcategory_name">Backend</p>
+            <div class="posirel">java <div class="bar40"></div></div>
+            <div class="posirel">spring <div class="bar40"></div></div>
+            <div class="posirel">python <div class="bar80"></div></div>
+            <div class="posirel">django <div class="bar60"></div></div>
+        </div>
+        <div class="margincenter skillcategory_box">
+            <p class="skillcategory_name">Tool</p>
+            <div>git</div>
+            <div>github</div>
+            <div>intellij</div>
+            <div>vscode</div>
+        </div>
+        <div class="margincenter skillcategory_box">
+            <p class="skillcategory_name">Database</p>
+            <div class="posirel">mysql <div class="bar60"></div></div>
+            <div class="posirel">postgresql <div class="bar60"></div></div>
+        </div>
+    </div>
+    <div id="project" class="viewport">
+        <p>Pojects</p>
+        <div id="project_box" class="margincenter">
+            <div class="project_img_box">
+                <a href="https://lee816-portfolio.netlify.app/"><img class="project_img" src="/img/project1.jpg" alt=""></a>
+            </div>
+            <hr>
+            <h3>사용한 언어</h3>
+            <br>
+            HTML, CSS, Javascript
+            <hr>
+            <h3>프로젝트 설명</h3>
+            <br>
+            반응형 웹으로 제작하여 Netlify를 통해 배포 하였으며, 스마트폰부터 PC까지 다양한 디바이스에서 접속가능 합니다. <a style="color : red;" href="https://github.com/Lee816/portfolio">Git hub</a></span>
+        </div>
+        <div id="project_box" class="margincenter">
+            1인 프로젝트
+            <div class="project_img_box">
+                <a href="https://port-0-python-django-sop272gldlao4so.gksl2.cloudtype.app/"><img class="project_img" src="/img/project2.jpg" alt=""></a>
+            </div>
+            <hr>
+            <h3>사용한 언어</h3>
+            <br>
+            <span>HTML, CSS, Javascript, Python, Django</span>
+            <hr>
+            <h3>프로젝트 설명</h3>
+            <br>
+            <span>백엔드 개발의 기본이 되는 CRUD를 이용한 간단한 Todo앱을 제작하였습니다. 클라우드타입을 통해서 배포를 하여 스마트폰에서도 사용할 수 있게 했습니다. <a style="color : red;" href="https://github.com/Lee816/python-django">Git hub</a></span>
+        </div>
+    </div>
+
+    <script src="js/portfolio.js"></script>
+</body>
+</html>
